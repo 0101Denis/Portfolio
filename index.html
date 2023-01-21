@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card</title>
+</head>
+<body>
+    <style>
+        .cards {
+         position: absolute;
+         top: 50px;
+         left: 50%;
+         transform-origin: 50px 50px;
+        }
+         .card1 {
+            transform: rotateZ(-15deg);
+         }
+         .card2 {
+            transform: rotateZ(15deg);
+         }
+         .cards:hover {
+            z-index: 2;
+           }
+        </style>
+
+<img src="3.png" alt="3" class="cards card1" width="145" height="227">
+<img src="7.png" alt="7" class="cards " width="145" height="227">
+<img src="ace.png" alt="King" class="cards card2" width="145" height="227">
+</body>
+</html>
